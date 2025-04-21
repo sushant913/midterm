@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Goojoo Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="top-nav">
+    <div class="logo">Goojoo</div>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menus</a>
+      <a href="private.html">Private Table</a>
+      <a href="Gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Reservations</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="gallery-hero">
+    <div class="gallery-overlay">
+      <h1>Our Gallery</h1>
+      <p>Feast your eyes on Goojoo’s moments of taste and elegance.</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="filter-controls">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="food">Food</button>
+    <button class="filter-btn" data-category="ambience">Ambience</button>
+    <button class="filter-btn" data-category="events">Events</button>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="gallery-grid-section">
+    <div class="gallery-grid">
+      <!-- Example Image -->
+      <img src="KIMBAB WITH RAW BEEF.jpg" alt="Dish 1" class="gallery-item" data-category="food" loading="lazy">
+      <img src="BUTTER SRIMP.jpg" alt="Dish 2" class="gallery-item" data-category="food" loading="lazy">
+      <img src="goojoo entry.jpg" alt="Interior 1" class="gallery-item" data-category="ambience" loading="lazy">
+      <img src="WhatsApp Image 2024-10-31 at 15.51.47_205622cb.jpg" alt="Event 1" class="gallery-item" data-category="events" loading="lazy">
+      <img src="WhatsApp Image 2024-10-31 at 15.51.46_ded87ab7.jpg" alt="Interior 2" class="gallery-item" data-category="ambience" loading="lazy">
+      <img src="ambiance.jpg" alt="Event 2" class="gallery-item" data-category="events" loading="lazy">
+    </div>
+  </section>
+  <!-- Bottom Video Gallery -->
+<section class="bottom-video-gallery">
+    <h2 class="video-title">Experience Goojoo in Motion</h2>
+    <div class="video-grid">
+      <video controls muted autoplay loop>
+        <source src="WhatsApp Video 2025-02-28 at 03.29.29_25763a61.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video controls muted autoplay loop>
+        <source src="WhatsApp Video 2025-02-28 at 03.29.45_0392c7ff.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video controls muted autoplay loop>
+        <source src="WhatsApp Video 2025-02-28 at 03.30.01_1ab96894.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+  
+
+  
+  <script defer src="gallery.js"></script>
+</body>
+</html>
